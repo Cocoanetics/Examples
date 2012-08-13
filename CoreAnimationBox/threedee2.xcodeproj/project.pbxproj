@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7A59B8815D6F27E00586456 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A59B8715D6F27E00586456 /* UIKit.framework */; };
+		A7A59B8A15D6F27E00586456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A59B8915D6F27E00586456 /* Foundation.framework */; };
+		A7A59B8C15D6F27E00586456 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A59B8B15D6F27E00586456 /* CoreGraphics.framework */; };
+		A7A59B9215D6F27E00586456 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7A59B9015D6F27E00586456 /* InfoPlist.strings */; };
+		A7A59B9415D6F27E00586456 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A59B9315D6F27E00586456 /* main.m */; };
+		A7A59B9815D6F27E00586456 /* DTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A59B9715D6F27E00586456 /* DTAppDelegate.m */; };
+		A7A59B9B15D6F27E00586456 /* DTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A59B9A15D6F27E00586456 /* DTViewController.m */; };
+		A7A59B9E15D6F27E00586456 /* DTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A59B9C15D6F27E00586456 /* DTViewController.xib */; };
+		A7A59BA515D6F36700586456 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A59BA415D6F36700586456 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7A59B8315D6F27E00586456 /* threedee2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = threedee2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A59B8715D6F27E00586456 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7A59B8915D6F27E00586456 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7A59B8B15D6F27E00586456 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7A59B8F15D6F27E00586456 /* threedee2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "threedee2-Info.plist"; sourceTree = "<group>"; };
+		A7A59B9115D6F27E00586456 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7A59B9315D6F27E00586456 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7A59B9515D6F27E00586456 /* threedee2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "threedee2-Prefix.pch"; sourceTree = "<group>"; };
+		A7A59B9615D6F27E00586456 /* DTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTAppDelegate.h; sourceTree = "<group>"; };
+		A7A59B9715D6F27E00586456 /* DTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTAppDelegate.m; sourceTree = "<group>"; };
+		A7A59B9915D6F27E00586456 /* DTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTViewController.h; sourceTree = "<group>"; };
+		A7A59B9A15D6F27E00586456 /* DTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTViewController.m; sourceTree = "<group>"; };
+		A7A59B9D15D6F27E00586456 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DTViewController.xib; sourceTree = "<group>"; };
+		A7A59BA415D6F36700586456 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7A59B8015D6F27E00586456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A59BA515D6F36700586456 /* QuartzCore.framework in Frameworks */,
+				A7A59B8815D6F27E00586456 /* UIKit.framework in Frameworks */,
+				A7A59B8A15D6F27E00586456 /* Foundation.framework in Frameworks */,
+				A7A59B8C15D6F27E00586456 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7A59B7815D6F27D00586456 = {
+			isa = PBXGroup;
+			children = (
+				A7A59B8D15D6F27E00586456 /* threedee2 */,
+				A7A59B8615D6F27E00586456 /* Frameworks */,
+				A7A59B8415D6F27E00586456 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7A59B8415D6F27E00586456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7A59B8315D6F27E00586456 /* threedee2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7A59B8615D6F27E00586456 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7A59BA415D6F36700586456 /* QuartzCore.framework */,
+				A7A59B8715D6F27E00586456 /* UIKit.framework */,
+				A7A59B8915D6F27E00586456 /* Foundation.framework */,
+				A7A59B8B15D6F27E00586456 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7A59B8D15D6F27E00586456 /* threedee2 */ = {
+			isa = PBXGroup;
+			children = (
+				A7A59B9615D6F27E00586456 /* DTAppDelegate.h */,
+				A7A59B9715D6F27E00586456 /* DTAppDelegate.m */,
+				A7A59B9915D6F27E00586456 /* DTViewController.h */,
+				A7A59B9A15D6F27E00586456 /* DTViewController.m */,
+				A7A59B9C15D6F27E00586456 /* DTViewController.xib */,
+				A7A59B8E15D6F27E00586456 /* Supporting Files */,
+			);
+			path = threedee2;
+			sourceTree = "<group>";
+		};
+		A7A59B8E15D6F27E00586456 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7A59B8F15D6F27E00586456 /* threedee2-Info.plist */,
+				A7A59B9015D6F27E00586456 /* InfoPlist.strings */,
+				A7A59B9315D6F27E00586456 /* main.m */,
+				A7A59B9515D6F27E00586456 /* threedee2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7A59B8215D6F27E00586456 /* threedee2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A59BA115D6F27E00586456 /* Build configuration list for PBXNativeTarget "threedee2" */;
+			buildPhases = (
+				A7A59B7F15D6F27E00586456 /* Sources */,
+				A7A59B8015D6F27E00586456 /* Frameworks */,
+				A7A59B8115D6F27E00586456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = threedee2;
+			productName = threedee2;
+			productReference = A7A59B8315D6F27E00586456 /* threedee2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7A59B7A15D6F27D00586456 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DT;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Oliver Drobnik";
+			};
+			buildConfigurationList = A7A59B7D15D6F27D00586456 /* Build configuration list for PBXProject "threedee2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7A59B7815D6F27D00586456;
+			productRefGroup = A7A59B8415D6F27E00586456 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7A59B8215D6F27E00586456 /* threedee2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7A59B8115D6F27E00586456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A59B9215D6F27E00586456 /* InfoPlist.strings in Resources */,
+				A7A59B9E15D6F27E00586456 /* DTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7A59B7F15D6F27E00586456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A59B9415D6F27E00586456 /* main.m in Sources */,
+				A7A59B9815D6F27E00586456 /* DTAppDelegate.m in Sources */,
+				A7A59B9B15D6F27E00586456 /* DTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7A59B9015D6F27E00586456 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A59B9115D6F27E00586456 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7A59B9C15D6F27E00586456 /* DTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A59B9D15D6F27E00586456 /* en */,
+			);
+			name = DTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7A59B9F15D6F27E00586456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7A59BA015D6F27E00586456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7A59BA215D6F27E00586456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "threedee2/threedee2-Prefix.pch";
+				INFOPLIST_FILE = "threedee2/threedee2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7A59BA315D6F27E00586456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "threedee2/threedee2-Prefix.pch";
+				INFOPLIST_FILE = "threedee2/threedee2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7A59B7D15D6F27D00586456 /* Build configuration list for PBXProject "threedee2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A59B9F15D6F27E00586456 /* Debug */,
+				A7A59BA015D6F27E00586456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A59BA115D6F27E00586456 /* Build configuration list for PBXNativeTarget "threedee2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A59BA215D6F27E00586456 /* Debug */,
+				A7A59BA315D6F27E00586456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7A59B7A15D6F27D00586456 /* Project object */;
+}
