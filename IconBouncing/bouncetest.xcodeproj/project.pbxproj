@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A73062951573BA6900C71D63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73062941573BA6900C71D63 /* UIKit.framework */; };
+		A73062971573BA6900C71D63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73062961573BA6900C71D63 /* Foundation.framework */; };
+		A73062991573BA6900C71D63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73062981573BA6900C71D63 /* CoreGraphics.framework */; };
+		A73062A11573BA6900C71D63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A73062A01573BA6900C71D63 /* main.m */; };
+		A73062A51573BA6900C71D63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A73062A41573BA6900C71D63 /* AppDelegate.m */; };
+		A73062A81573BA6900C71D63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73062A71573BA6900C71D63 /* ViewController.m */; };
+		A73062AB1573BA6900C71D63 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73062A91573BA6900C71D63 /* ViewController_iPhone.xib */; };
+		A73062BB1573BBE900C71D63 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73062BA1573BBE900C71D63 /* QuartzCore.framework */; };
+		A7BECE7F15E11AE600C46684 /* CAKeyframeAnimation+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BECE7C15E11AE600C46684 /* CAKeyframeAnimation+AHEasing.m */; };
+		A7BECE8015E11AE600C46684 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = A7BECE7D15E11AE600C46684 /* easing.c */; };
+		A7BECE8115E11B3D00C46684 /* CAKeyFrameAnimation+Jumping.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BECE7915E11A5F00C46684 /* CAKeyFrameAnimation+Jumping.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A73062901573BA6900C71D63 /* bouncetest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bouncetest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73062941573BA6900C71D63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A73062961573BA6900C71D63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A73062981573BA6900C71D63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A730629C1573BA6900C71D63 /* bouncetest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bouncetest-Info.plist"; sourceTree = "<group>"; };
+		A73062A01573BA6900C71D63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A73062A21573BA6900C71D63 /* bouncetest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bouncetest-Prefix.pch"; sourceTree = "<group>"; };
+		A73062A31573BA6900C71D63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A73062A41573BA6900C71D63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A73062A61573BA6900C71D63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A73062A71573BA6900C71D63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A73062AA1573BA6900C71D63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		A73062BA1573BBE900C71D63 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A7BECE7815E11A5F00C46684 /* CAKeyFrameAnimation+Jumping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAKeyFrameAnimation+Jumping.h"; sourceTree = "<group>"; };
+		A7BECE7915E11A5F00C46684 /* CAKeyFrameAnimation+Jumping.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CAKeyFrameAnimation+Jumping.m"; sourceTree = "<group>"; };
+		A7BECE7B15E11AE600C46684 /* CAKeyframeAnimation+AHEasing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAKeyframeAnimation+AHEasing.h"; sourceTree = "<group>"; };
+		A7BECE7C15E11AE600C46684 /* CAKeyframeAnimation+AHEasing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAKeyframeAnimation+AHEasing.m"; sourceTree = "<group>"; };
+		A7BECE7D15E11AE600C46684 /* easing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = easing.c; sourceTree = "<group>"; };
+		A7BECE7E15E11AE600C46684 /* easing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easing.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A730628D1573BA6900C71D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73062BB1573BBE900C71D63 /* QuartzCore.framework in Frameworks */,
+				A73062951573BA6900C71D63 /* UIKit.framework in Frameworks */,
+				A73062971573BA6900C71D63 /* Foundation.framework in Frameworks */,
+				A73062991573BA6900C71D63 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A73062851573BA6900C71D63 = {
+			isa = PBXGroup;
+			children = (
+				A730629A1573BA6900C71D63 /* bouncetest */,
+				A73062931573BA6900C71D63 /* Frameworks */,
+				A73062911573BA6900C71D63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A73062911573BA6900C71D63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A73062901573BA6900C71D63 /* bouncetest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A73062931573BA6900C71D63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A73062BA1573BBE900C71D63 /* QuartzCore.framework */,
+				A73062941573BA6900C71D63 /* UIKit.framework */,
+				A73062961573BA6900C71D63 /* Foundation.framework */,
+				A73062981573BA6900C71D63 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A730629A1573BA6900C71D63 /* bouncetest */ = {
+			isa = PBXGroup;
+			children = (
+				A7BECE7A15E11AE600C46684 /* AHEasing */,
+				A730629C1573BA6900C71D63 /* bouncetest-Info.plist */,
+				A73062A21573BA6900C71D63 /* bouncetest-Prefix.pch */,
+				A73062A01573BA6900C71D63 /* main.m */,
+				A7BECE7815E11A5F00C46684 /* CAKeyFrameAnimation+Jumping.h */,
+				A7BECE7915E11A5F00C46684 /* CAKeyFrameAnimation+Jumping.m */,
+				A73062A31573BA6900C71D63 /* AppDelegate.h */,
+				A73062A41573BA6900C71D63 /* AppDelegate.m */,
+				A73062A61573BA6900C71D63 /* ViewController.h */,
+				A73062A71573BA6900C71D63 /* ViewController.m */,
+				A73062A91573BA6900C71D63 /* ViewController_iPhone.xib */,
+			);
+			path = bouncetest;
+			sourceTree = "<group>";
+		};
+		A7BECE7A15E11AE600C46684 /* AHEasing */ = {
+			isa = PBXGroup;
+			children = (
+				A7BECE7B15E11AE600C46684 /* CAKeyframeAnimation+AHEasing.h */,
+				A7BECE7C15E11AE600C46684 /* CAKeyframeAnimation+AHEasing.m */,
+				A7BECE7D15E11AE600C46684 /* easing.c */,
+				A7BECE7E15E11AE600C46684 /* easing.h */,
+			);
+			path = AHEasing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A730628F1573BA6900C71D63 /* bouncetest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73062B11573BA6900C71D63 /* Build configuration list for PBXNativeTarget "bouncetest" */;
+			buildPhases = (
+				A730628C1573BA6900C71D63 /* Sources */,
+				A730628D1573BA6900C71D63 /* Frameworks */,
+				A730628E1573BA6900C71D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bouncetest;
+			productName = bouncetest;
+			productReference = A73062901573BA6900C71D63 /* bouncetest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A73062871573BA6900C71D63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A730628A1573BA6900C71D63 /* Build configuration list for PBXProject "bouncetest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A73062851573BA6900C71D63;
+			productRefGroup = A73062911573BA6900C71D63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A730628F1573BA6900C71D63 /* bouncetest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A730628E1573BA6900C71D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73062AB1573BA6900C71D63 /* ViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A730628C1573BA6900C71D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73062A11573BA6900C71D63 /* main.m in Sources */,
+				A73062A51573BA6900C71D63 /* AppDelegate.m in Sources */,
+				A73062A81573BA6900C71D63 /* ViewController.m in Sources */,
+				A7BECE7F15E11AE600C46684 /* CAKeyframeAnimation+AHEasing.m in Sources */,
+				A7BECE8015E11AE600C46684 /* easing.c in Sources */,
+				A7BECE8115E11B3D00C46684 /* CAKeyFrameAnimation+Jumping.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A73062A91573BA6900C71D63 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A73062AA1573BA6900C71D63 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A73062AF1573BA6900C71D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A73062B01573BA6900C71D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A73062B21573BA6900C71D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bouncetest/bouncetest-Prefix.pch";
+				INFOPLIST_FILE = "bouncetest/bouncetest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A73062B31573BA6900C71D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bouncetest/bouncetest-Prefix.pch";
+				INFOPLIST_FILE = "bouncetest/bouncetest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A730628A1573BA6900C71D63 /* Build configuration list for PBXProject "bouncetest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73062AF1573BA6900C71D63 /* Debug */,
+				A73062B01573BA6900C71D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A73062B11573BA6900C71D63 /* Build configuration list for PBXNativeTarget "bouncetest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73062B21573BA6900C71D63 /* Debug */,
+				A73062B31573BA6900C71D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A73062871573BA6900C71D63 /* Project object */;
+}
