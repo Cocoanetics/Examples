@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="iM0-u7-12x">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
+    </dependencies>
+    <scenes>
+        <!--Chat Room Table View Controller - Chat Rooms-->
+        <scene sceneID="6Rn-3w-2cY">
+            <objects>
+                <tableViewController id="U3n-ZJ-umG" customClass="ChatRoomTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="z5m-4a-RK1">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ChatRoomCell" textLabel="Lsv-AW-Ngr" detailTextLabel="eSm-pT-tVh" style="IBUITableViewCellStyleSubtitle" id="NIG-Bd-wJn">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lsv-AW-Ngr">
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSm-pT-tVh">
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <segue destination="Wqd-3g-gfB" kind="push" identifier="ChatRoom" id="1dH-ew-YaS"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Chat Rooms" id="Tay-dy-A0Y">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="gRw-Ej-Dxa">
+                            <connections>
+                                <segue destination="RvO-YK-oZg" kind="modal" identifier="CreateChatRoom" modalTransitionStyle="coverVertical" id="EMU-TK-NuQ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ve-s7-og6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="360" y="-423"/>
+        </scene>
+        <!--Room Creation View Controller-->
+        <scene sceneID="FaO-Q3-RdD">
+            <objects>
+                <viewController id="vJ0-A1-j3J" customClass="RoomCreationViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l1D-0D-zlo">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="My Room Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bwL-Ck-Efg">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                <connections>
+                                    <action selector="textFieldChanged:" destination="vJ0-A1-j3J" eventType="editingChanged" id="Kwr-eI-ULQ"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Name your Chat Room" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cG-Dp-jSv">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bwL-Ck-Efg" firstAttribute="leading" secondItem="l1D-0D-zlo" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Cbi-oA-28x"/>
+                            <constraint firstAttribute="trailing" secondItem="bwL-Ck-Efg" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="FnZ-er-LiS"/>
+                            <constraint firstItem="5cG-Dp-jSv" firstAttribute="leading" secondItem="l1D-0D-zlo" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="SQM-bo-EYS"/>
+                            <constraint firstItem="bwL-Ck-Efg" firstAttribute="top" secondItem="5cG-Dp-jSv" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="gJl-9t-GcY"/>
+                            <constraint firstItem="5cG-Dp-jSv" firstAttribute="top" secondItem="l1D-0D-zlo" secondAttribute="top" constant="58" id="xIw-EW-jxy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="VuR-Uy-OKv">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="x5m-tl-Gt6">
+                            <connections>
+                                <action selector="cancel:" destination="vJ0-A1-j3J" id="tlK-LN-lY4"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" style="done" systemItem="save" id="GAK-IB-1tK">
+                            <connections>
+                                <action selector="save:" destination="vJ0-A1-j3J" id="0TX-g0-pou"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="roomNameField" destination="bwL-Ck-Efg" id="zZ2-41-bik"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XDU-aI-ddU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1344" y="-1119"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="FMI-Hc-eYb">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="iM0-u7-12x" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hwN-uE-PlB">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="U3n-ZJ-umG" kind="relationship" relationship="rootViewController" id="UQg-0e-bmD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Doc-AY-TKh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-174" y="-423"/>
+        </scene>
+        <!--Chat Table View Controller-->
+        <scene sceneID="Mrf-8y-uzj">
+            <objects>
+                <tableViewController id="Wqd-3g-gfB" customClass="ChatTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="116" sectionHeaderHeight="22" sectionFooterHeight="22" id="NDA-mv-g6l">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MessageCell" textLabel="1in-Hp-Xtf" rowHeight="34" style="IBUITableViewCellStyleDefault" id="qi0-Ha-wEt">
+                                <rect key="frame" x="0.0" y="22" width="320" height="34"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="33"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1in-Hp-Xtf">
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="backgroundColor" red="1" green="0.81726523939999995" blue="0.50280548749999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="InputCell" rowHeight="71" id="YM4-ES-4IG">
+                                <rect key="frame" x="0.0" y="56" width="320" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Message Here" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ehe-gh-cCY">
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="send"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="Wqd-3g-gfB" id="CHl-5p-4nr"/>
+                                            </connections>
+                                        </textField>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="backgroundColor" red="0.60275018215179443" green="0.18743409460572358" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ehe-gh-cCY" firstAttribute="top" secondItem="YM4-ES-4IG" secondAttribute="top" constant="20" type="default" id="FN1-4Z-Rwe"/>
+                                    <constraint firstItem="ehe-gh-cCY" firstAttribute="leading" secondItem="YM4-ES-4IG" secondAttribute="leading" constant="20" type="default" id="oGf-ce-8RK"/>
+                                    <constraint firstAttribute="trailing" secondItem="ehe-gh-cCY" secondAttribute="trailing" constant="20" type="default" id="y7x-BV-rK9"/>
+                                </constraints>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Wqd-3g-gfB" id="3pJ-ZL-Dej"/>
+                            <outlet property="delegate" destination="Wqd-3g-gfB" id="EPy-1p-eMF"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="q6m-IE-Pop"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ez-4d-g6G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="904" y="-423"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1Ir-j3-Z7x">
+            <objects>
+                <navigationController id="RvO-YK-oZg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pb7-k3-zPj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vJ0-A1-j3J" kind="relationship" relationship="rootViewController" id="9IH-5q-dwh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u4t-Rg-2Kq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="904" y="-1119"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="ChatRoomTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ChatRoomTableViewController.h"/>
+        </class>
+        <class className="ChatTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ChatTableViewController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="RoomCreationViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RoomCreationViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="roomNameField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

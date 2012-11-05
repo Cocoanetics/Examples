@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7003EC31646E92100CE6F37 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7003EC21646E92100CE6F37 /* MobileCoreServices.framework */; };
+		A7003EC51646E92900CE6F37 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7003EC41646E92900CE6F37 /* QuartzCore.framework */; };
+		A7003EC816470A0700CE6F37 /* BonjourChatClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A7003EC716470A0700CE6F37 /* BonjourChatClient.m */; };
+		A78258DC1646D83D00F54871 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78258DB1646D83D00F54871 /* UIKit.framework */; };
+		A78258DE1646D83D00F54871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78258DD1646D83D00F54871 /* Foundation.framework */; };
+		A78258E01646D83D00F54871 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78258DF1646D83D00F54871 /* CoreGraphics.framework */; };
+		A78258E61646D83D00F54871 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A78258E41646D83D00F54871 /* InfoPlist.strings */; };
+		A78258E81646D83D00F54871 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A78258E71646D83D00F54871 /* main.m */; };
+		A78258EC1646D83D00F54871 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A78258EB1646D83D00F54871 /* AppDelegate.m */; };
+		A78258EE1646D83D00F54871 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A78258ED1646D83D00F54871 /* Default.png */; };
+		A78258F01646D83D00F54871 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A78258EF1646D83D00F54871 /* Default@2x.png */; };
+		A78258F21646D83D00F54871 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A78258F11646D83D00F54871 /* Default-568h@2x.png */; };
+		A78258F51646D83D00F54871 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78258F31646D83D00F54871 /* MainStoryboard.storyboard */; };
+		A7825A341646D9B300F54871 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7825A331646D9B300F54871 /* CoreFoundation.framework */; };
+		A7825A371646DB4A00F54871 /* ChatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7825A361646DB4A00F54871 /* ChatTableViewController.m */; };
+		A7825A3A1646DECF00F54871 /* RoomCreationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7825A391646DECF00F54871 /* RoomCreationViewController.m */; };
+		A7825A3D1646DFE600F54871 /* ChatRoomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7825A3C1646DFE600F54871 /* ChatRoomTableViewController.m */; };
+		A7825A781646E5A500F54871 /* BonjourChatServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A7825A771646E5A500F54871 /* BonjourChatServer.m */; };
+		A78FB65A1647B8D2008EECE5 /* libDTBonjour.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A78FB6551647B8C0008EECE5 /* libDTBonjour.a */; };
+		A78FB65B1647B8D6008EECE5 /* libDTFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A78FB6471647B8C0008EECE5 /* libDTFoundation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A78FB6441647B8C0008EECE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78FB6331647B8BF008EECE5 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7BAD10E1483F934000E2B6A;
+			remoteInfo = "Static Framework";
+		};
+		A78FB6461647B8C0008EECE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78FB6331647B8BF008EECE5 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A70B4CE71486637E00873A4A;
+			remoteInfo = "Static Library";
+		};
+		A78FB6481647B8C0008EECE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78FB6331647B8BF008EECE5 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7D60FCF15D3B0BC00AEDD1B;
+			remoteInfo = "Unit Tests";
+		};
+		A78FB64A1647B8C0008EECE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78FB6331647B8BF008EECE5 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A710A5001607556000437D36;
+			remoteInfo = "Static Library (Mac)";
+		};
+		A78FB64C1647B8C0008EECE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78FB6331647B8BF008EECE5 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7E383C2160DFEDB00CF72D6;
+			remoteInfo = DTHTMLParser;
+		};
+		A78FB64E1647B8C0008EECE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78FB6331647B8BF008EECE5 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7E383DA160DFF8600CF72D6;
+			remoteInfo = DTZipArchive;
+		};
+		A78FB6501647B8C0008EECE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78FB6331647B8BF008EECE5 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7E383F1160E002200CF72D6;
+			remoteInfo = DTDownloadCache;
+		};
+		A78FB6521647B8C0008EECE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78FB6331647B8BF008EECE5 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAE5B92D1610A38200CA0D99;
+			remoteInfo = PDFDemo;
+		};
+		A78FB6541647B8C0008EECE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78FB6331647B8BF008EECE5 /* DTFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7787A0D16441B1800AF5830;
+			remoteInfo = DTBonjour;
+		};
+		A78FB6561647B8C9008EECE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78FB6331647B8BF008EECE5 /* DTFoundation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A70B4CE61486637E00873A4A;
+			remoteInfo = "Static Library";
+		};
+		A78FB6581647B8CC008EECE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78FB6331647B8BF008EECE5 /* DTFoundation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A7787A0C16441B1800AF5830;
+			remoteInfo = DTBonjour;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7003EC21646E92100CE6F37 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A7003EC41646E92900CE6F37 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A7003EC616470A0700CE6F37 /* BonjourChatClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonjourChatClient.h; sourceTree = "<group>"; };
+		A7003EC716470A0700CE6F37 /* BonjourChatClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourChatClient.m; sourceTree = "<group>"; };
+		A78258D71646D83D00F54871 /* BonjourChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonjourChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78258DB1646D83D00F54871 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A78258DD1646D83D00F54871 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A78258DF1646D83D00F54871 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A78258E31646D83D00F54871 /* BonjourChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BonjourChat-Info.plist"; sourceTree = "<group>"; };
+		A78258E51646D83D00F54871 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A78258E71646D83D00F54871 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A78258E91646D83D00F54871 /* BonjourChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BonjourChat-Prefix.pch"; sourceTree = "<group>"; };
+		A78258EA1646D83D00F54871 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A78258EB1646D83D00F54871 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A78258ED1646D83D00F54871 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A78258EF1646D83D00F54871 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A78258F11646D83D00F54871 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A78258F41646D83D00F54871 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A7825A331646D9B300F54871 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A7825A351646DB4A00F54871 /* ChatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewController.h; sourceTree = "<group>"; };
+		A7825A361646DB4A00F54871 /* ChatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewController.m; sourceTree = "<group>"; };
+		A7825A381646DECF00F54871 /* RoomCreationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomCreationViewController.h; sourceTree = "<group>"; };
+		A7825A391646DECF00F54871 /* RoomCreationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomCreationViewController.m; sourceTree = "<group>"; };
+		A7825A3B1646DFE600F54871 /* ChatRoomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRoomTableViewController.h; sourceTree = "<group>"; };
+		A7825A3C1646DFE600F54871 /* ChatRoomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRoomTableViewController.m; sourceTree = "<group>"; };
+		A7825A761646E5A500F54871 /* BonjourChatServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonjourChatServer.h; sourceTree = "<group>"; };
+		A7825A771646E5A500F54871 /* BonjourChatServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourChatServer.m; sourceTree = "<group>"; };
+		A78FB6331647B8BF008EECE5 /* DTFoundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DTFoundation.xcodeproj; path = ../../Externals/DTFoundation/DTFoundation.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A78258D41646D83D00F54871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78FB65B1647B8D6008EECE5 /* libDTFoundation.a in Frameworks */,
+				A78FB65A1647B8D2008EECE5 /* libDTBonjour.a in Frameworks */,
+				A7003EC51646E92900CE6F37 /* QuartzCore.framework in Frameworks */,
+				A7003EC31646E92100CE6F37 /* MobileCoreServices.framework in Frameworks */,
+				A7825A341646D9B300F54871 /* CoreFoundation.framework in Frameworks */,
+				A78258DC1646D83D00F54871 /* UIKit.framework in Frameworks */,
+				A78258DE1646D83D00F54871 /* Foundation.framework in Frameworks */,
+				A78258E01646D83D00F54871 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A78258CC1646D83D00F54871 = {
+			isa = PBXGroup;
+			children = (
+				A78259021646D98600F54871 /* Externals */,
+				A78258E11646D83D00F54871 /* BonjourChat */,
+				A78258DA1646D83D00F54871 /* Frameworks */,
+				A78258D81646D83D00F54871 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A78258D81646D83D00F54871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A78258D71646D83D00F54871 /* BonjourChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A78258DA1646D83D00F54871 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7003EC41646E92900CE6F37 /* QuartzCore.framework */,
+				A7003EC21646E92100CE6F37 /* MobileCoreServices.framework */,
+				A7825A331646D9B300F54871 /* CoreFoundation.framework */,
+				A78258DF1646D83D00F54871 /* CoreGraphics.framework */,
+				A78258DD1646D83D00F54871 /* Foundation.framework */,
+				A78258DB1646D83D00F54871 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A78258E11646D83D00F54871 /* BonjourChat */ = {
+			isa = PBXGroup;
+			children = (
+				A78258EA1646D83D00F54871 /* AppDelegate.h */,
+				A78258EB1646D83D00F54871 /* AppDelegate.m */,
+				A78258F31646D83D00F54871 /* MainStoryboard.storyboard */,
+				A78258E21646D83D00F54871 /* Supporting Files */,
+				A7825A351646DB4A00F54871 /* ChatTableViewController.h */,
+				A7825A361646DB4A00F54871 /* ChatTableViewController.m */,
+				A7825A381646DECF00F54871 /* RoomCreationViewController.h */,
+				A7825A391646DECF00F54871 /* RoomCreationViewController.m */,
+				A7825A3B1646DFE600F54871 /* ChatRoomTableViewController.h */,
+				A7825A3C1646DFE600F54871 /* ChatRoomTableViewController.m */,
+				A7003EC616470A0700CE6F37 /* BonjourChatClient.h */,
+				A7003EC716470A0700CE6F37 /* BonjourChatClient.m */,
+				A7825A761646E5A500F54871 /* BonjourChatServer.h */,
+				A7825A771646E5A500F54871 /* BonjourChatServer.m */,
+			);
+			path = BonjourChat;
+			sourceTree = "<group>";
+		};
+		A78258E21646D83D00F54871 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A78258E31646D83D00F54871 /* BonjourChat-Info.plist */,
+				A78258E41646D83D00F54871 /* InfoPlist.strings */,
+				A78258E71646D83D00F54871 /* main.m */,
+				A78258E91646D83D00F54871 /* BonjourChat-Prefix.pch */,
+				A78258ED1646D83D00F54871 /* Default.png */,
+				A78258EF1646D83D00F54871 /* Default@2x.png */,
+				A78258F11646D83D00F54871 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A78259021646D98600F54871 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				A78FB6331647B8BF008EECE5 /* DTFoundation.xcodeproj */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		A78FB6341647B8BF008EECE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A78FB6451647B8C0008EECE5 /* DTFoundation.framework */,
+				A78FB6471647B8C0008EECE5 /* libDTFoundation.a */,
+				A78FB6491647B8C0008EECE5 /* UnitTests.octest */,
+				A78FB64B1647B8C0008EECE5 /* libDTFoundation_Mac.a */,
+				A78FB64D1647B8C0008EECE5 /* libDTHTMLParser.a */,
+				A78FB64F1647B8C0008EECE5 /* libDTZipArchive.a */,
+				A78FB6511647B8C0008EECE5 /* libDTDownloadCache.a */,
+				A78FB6531647B8C0008EECE5 /* PDFDemo.app */,
+				A78FB6551647B8C0008EECE5 /* libDTBonjour.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A78258D61646D83D00F54871 /* BonjourChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78258FB1646D83D00F54871 /* Build configuration list for PBXNativeTarget "BonjourChat" */;
+			buildPhases = (
+				A78258D31646D83D00F54871 /* Sources */,
+				A78258D41646D83D00F54871 /* Frameworks */,
+				A78258D51646D83D00F54871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A78FB6591647B8CC008EECE5 /* PBXTargetDependency */,
+				A78FB6571647B8C9008EECE5 /* PBXTargetDependency */,
+			);
+			name = BonjourChat;
+			productName = BonjourChat;
+			productReference = A78258D71646D83D00F54871 /* BonjourChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A78258CE1646D83D00F54871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Oliver Drobnik";
+			};
+			buildConfigurationList = A78258D11646D83D00F54871 /* Build configuration list for PBXProject "BonjourChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A78258CC1646D83D00F54871;
+			productRefGroup = A78258D81646D83D00F54871 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A78FB6341647B8BF008EECE5 /* Products */;
+					ProjectRef = A78FB6331647B8BF008EECE5 /* DTFoundation.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A78258D61646D83D00F54871 /* BonjourChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A78FB6451647B8C0008EECE5 /* DTFoundation.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DTFoundation.framework;
+			remoteRef = A78FB6441647B8C0008EECE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A78FB6471647B8C0008EECE5 /* libDTFoundation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTFoundation.a;
+			remoteRef = A78FB6461647B8C0008EECE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A78FB6491647B8C0008EECE5 /* UnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.octest;
+			remoteRef = A78FB6481647B8C0008EECE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A78FB64B1647B8C0008EECE5 /* libDTFoundation_Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTFoundation_Mac.a;
+			remoteRef = A78FB64A1647B8C0008EECE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A78FB64D1647B8C0008EECE5 /* libDTHTMLParser.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTHTMLParser.a;
+			remoteRef = A78FB64C1647B8C0008EECE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A78FB64F1647B8C0008EECE5 /* libDTZipArchive.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTZipArchive.a;
+			remoteRef = A78FB64E1647B8C0008EECE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A78FB6511647B8C0008EECE5 /* libDTDownloadCache.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTDownloadCache.a;
+			remoteRef = A78FB6501647B8C0008EECE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A78FB6531647B8C0008EECE5 /* PDFDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = PDFDemo.app;
+			remoteRef = A78FB6521647B8C0008EECE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A78FB6551647B8C0008EECE5 /* libDTBonjour.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTBonjour.a;
+			remoteRef = A78FB6541647B8C0008EECE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A78258D51646D83D00F54871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78258E61646D83D00F54871 /* InfoPlist.strings in Resources */,
+				A78258EE1646D83D00F54871 /* Default.png in Resources */,
+				A78258F01646D83D00F54871 /* Default@2x.png in Resources */,
+				A78258F21646D83D00F54871 /* Default-568h@2x.png in Resources */,
+				A78258F51646D83D00F54871 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A78258D31646D83D00F54871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78258E81646D83D00F54871 /* main.m in Sources */,
+				A78258EC1646D83D00F54871 /* AppDelegate.m in Sources */,
+				A7825A371646DB4A00F54871 /* ChatTableViewController.m in Sources */,
+				A7825A3A1646DECF00F54871 /* RoomCreationViewController.m in Sources */,
+				A7825A3D1646DFE600F54871 /* ChatRoomTableViewController.m in Sources */,
+				A7825A781646E5A500F54871 /* BonjourChatServer.m in Sources */,
+				A7003EC816470A0700CE6F37 /* BonjourChatClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A78FB6571647B8C9008EECE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Static Library";
+			targetProxy = A78FB6561647B8C9008EECE5 /* PBXContainerItemProxy */;
+		};
+		A78FB6591647B8CC008EECE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTBonjour;
+			targetProxy = A78FB6581647B8CC008EECE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A78258E41646D83D00F54871 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78258E51646D83D00F54871 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A78258F31646D83D00F54871 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78258F41646D83D00F54871 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A78258F91646D83D00F54871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A78258FA1646D83D00F54871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A78258FC1646D83D00F54871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BonjourChat/BonjourChat-Prefix.pch";
+				INFOPLIST_FILE = "BonjourChat/BonjourChat-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../Externals/DTFoundation/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A78258FD1646D83D00F54871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BonjourChat/BonjourChat-Prefix.pch";
+				INFOPLIST_FILE = "BonjourChat/BonjourChat-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../Externals/DTFoundation/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A78258D11646D83D00F54871 /* Build configuration list for PBXProject "BonjourChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78258F91646D83D00F54871 /* Debug */,
+				A78258FA1646D83D00F54871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78258FB1646D83D00F54871 /* Build configuration list for PBXNativeTarget "BonjourChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78258FC1646D83D00F54871 /* Debug */,
+				A78258FD1646D83D00F54871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A78258CE1646D83D00F54871 /* Project object */;
+}
