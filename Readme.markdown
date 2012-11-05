@@ -9,7 +9,6 @@ Contents:
 - [Containing ViewControllers](http://j.mp/HFu8K5)
 - [Let's Bounce](http://j.mp/JyAfw1)
 - [OS X Tutorial for iOS Developers](http://bit.ly/NBVOSY)
-
-
+- [Bonjour Chat](http://bit.ly/SMO5Re)
 
 Follow [@cocoanetics](http://twitter.com/cocoanetics) on Twitter.
