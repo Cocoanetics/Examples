@@ -39,7 +39,7 @@
 
 - (void)connection:(DTBonjourDataConnection *)connection didReceiveObject:(id)object
 {
-	// need to call super because this forwards the object to the delegate
+	// need to call super because this forwards the object to the server delegate
 	[super connection:connection didReceiveObject:object];
 	
 	// we need to pass the object to all other connections so that they also see the messages

@@ -141,10 +141,6 @@
 #pragma mark - NSNetService Delegate
 - (void)netService:(NSNetService *)sender didUpdateTXTRecordData:(NSData *)data
 {
-//	NSUInteger row = [_foundServices indexOfObject:sender];
-//	
-//	[self.tableView reloadRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:row inSection:1]] withRowAnimation:UITableViewRowAnimationNone];
-	
 	[self _updateFoundServices];
 	
 	[sender stopMonitoring];
