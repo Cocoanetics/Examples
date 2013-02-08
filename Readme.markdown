@@ -3,6 +3,16 @@ Cocoanetics Examples
 
 This repository is a collection of sample apps that usually each go with one blog article at [Cocoanetics.com](http://www.cocoanetics.com)
 
+Usage:
+
+Clone the git project to your harddisk.
+
+   `git clone https://github.com/Cocoanetics/Examples.git`
+
+These example use external libraries, to get these as well execute this at the project root
+
+   `git submodule update --init --recursive`
+
 Contents:
 
 - [Cubed CoreAnimation Conundrum](http://bitly.com/NqcE6n)
