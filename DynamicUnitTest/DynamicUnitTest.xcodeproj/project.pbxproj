@@ -10,7 +10,6 @@
 		A74036E616E7A3D400ECCDE0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74036E516E7A3D400ECCDE0 /* SenTestingKit.framework */; };
 		A74036E816E7A3D400ECCDE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74036E716E7A3D400ECCDE0 /* UIKit.framework */; };
 		A74036EA16E7A3D400ECCDE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74036E916E7A3D400ECCDE0 /* Foundation.framework */; };
-		A74036F016E7A3D400ECCDE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A74036EE16E7A3D400ECCDE0 /* InfoPlist.strings */; };
 		A74036F316E7A3D400ECCDE0 /* UnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A74036F216E7A3D400ECCDE0 /* UnitTest.m */; };
 		A74036F816E7A3E200ECCDE0 /* libDTFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A74036CE16E7A3C300ECCDE0 /* libDTFoundation.a */; };
 		A74036FA16E7A43C00ECCDE0 /* TestCases.plist in Resources */ = {isa = PBXBuildFile; fileRef = A74036F916E7A43C00ECCDE0 /* TestCases.plist */; };
@@ -92,7 +91,6 @@
 		A74036E716E7A3D400ECCDE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		A74036E916E7A3D400ECCDE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A74036ED16E7A3D400ECCDE0 /* UnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTest-Info.plist"; sourceTree = "<group>"; };
-		A74036EF16E7A3D400ECCDE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A74036F116E7A3D400ECCDE0 /* UnitTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitTest.h; sourceTree = "<group>"; };
 		A74036F216E7A3D400ECCDE0 /* UnitTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTest.m; sourceTree = "<group>"; };
 		A74036F416E7A3D400ECCDE0 /* UnitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnitTest-Prefix.pch"; sourceTree = "<group>"; };
@@ -190,7 +188,6 @@
 			isa = PBXGroup;
 			children = (
 				A74036ED16E7A3D400ECCDE0 /* UnitTest-Info.plist */,
-				A74036EE16E7A3D400ECCDE0 /* InfoPlist.strings */,
 				A74036F416E7A3D400ECCDE0 /* UnitTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -319,7 +316,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A74036F016E7A3D400ECCDE0 /* InfoPlist.strings in Resources */,
 				A74036FA16E7A43C00ECCDE0 /* TestCases.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,17 +348,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A74036EE16E7A3D400ECCDE0 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A74036EF16E7A3D400ECCDE0 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A74036BB16E7A3A100ECCDE0 /* Debug */ = {
