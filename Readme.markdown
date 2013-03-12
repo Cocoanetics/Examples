@@ -9,7 +9,7 @@ Clone the git project to your harddisk.
 
    `git clone https://github.com/Cocoanetics/Examples.git`
 
-These example use external libraries, to get these as well execute this at the project root
+These examples use external libraries, to get these as well execute this at the project root
 
    `git submodule update --init --recursive`
 
@@ -21,5 +21,6 @@ Contents:
 - [Let's Bounce](http://j.mp/JyAfw1)
 - [OS X Tutorial for iOS Developers](http://bit.ly/NBVOSY)
 - [Bonjour Chat](http://bit.ly/SMO5Re)
+- [Dynamic Unit Tests](http://bit.ly/XWu1gE)
 
 Follow [@cocoanetics](http://twitter.com/cocoanetics) on Twitter.
