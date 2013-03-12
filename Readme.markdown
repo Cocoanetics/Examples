@@ -17,6 +17,7 @@ Contents:
 
 - [Cubed CoreAnimation Conundrum](http://bitly.com/NqcE6n)
 - [Containing ViewControllers](http://j.mp/HFu8K5)
+- [Expandable TableView Sections](http://bit.ly/gSbpZp)
 - [Let's Bounce](http://j.mp/JyAfw1)
 - [OS X Tutorial for iOS Developers](http://bit.ly/NBVOSY)
 - [Bonjour Chat](http://bit.ly/SMO5Re)
