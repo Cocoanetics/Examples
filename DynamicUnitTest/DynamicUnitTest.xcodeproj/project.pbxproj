@@ -456,6 +456,7 @@
 				A74036F716E7A3D400ECCDE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
