@@ -22,5 +22,6 @@ Contents:
 - [OS X Tutorial for iOS Developers](http://bit.ly/NBVOSY)
 - [Bonjour Chat](http://bit.ly/SMO5Re)
 - [Dynamic Unit Tests](http://bit.ly/XWu1gE)
+- [Localization Unit Test](http://bit.ly/YoC0Dk)
 
 Follow [@cocoanetics](http://twitter.com/cocoanetics) on Twitter.
