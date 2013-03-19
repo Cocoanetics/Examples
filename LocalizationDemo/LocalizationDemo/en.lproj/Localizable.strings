@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  LocalizationDemo
+
+  Created by Oliver Drobnik on 19.03.13.
+  Copyright (c) 2013 Drobnik KG. All rights reserved.
+*/
+
+
+"ALERT_VIEW_MSG" = "Alert View Message";
