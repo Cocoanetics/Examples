@@ -18,7 +18,36 @@
 		A7B5B21016F88DA20078E1C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B5B20F16F88DA20078E1C1 /* ViewController.m */; };
 		A7B5B21316F88DA20078E1C1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7B5B21116F88DA20078E1C1 /* ViewController.xib */; };
 		A7B5B21B16F88DC80078E1C1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7B5B21D16F88DC80078E1C1 /* Localizable.strings */; };
+		A7B5B23A16F899AC0078E1C1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B5B23916F899AC0078E1C1 /* SenTestingKit.framework */; };
+		A7B5B23C16F899AC0078E1C1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B5B23B16F899AC0078E1C1 /* Cocoa.framework */; };
+		A7B5B24616F899AC0078E1C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7B5B24416F899AC0078E1C1 /* InfoPlist.strings */; };
+		A7B5B24916F899AC0078E1C1 /* LocalizationUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B5B24816F899AC0078E1C1 /* LocalizationUnitTest.m */; };
+		A7B5B26F16F8A5980078E1C1 /* libDTLocalizableStringScanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B5B26C16F8A5430078E1C1 /* libDTLocalizableStringScanner.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7B5B26916F8A5430078E1C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B5B26216F8A5430078E1C1 /* genstrings2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A775233D14ACEF7A0035CDCA;
+			remoteInfo = "Command Line Tool";
+		};
+		A7B5B26B16F8A5430078E1C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B5B26216F8A5430078E1C1 /* genstrings2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A79AC08814B1A51800489FA3;
+			remoteInfo = "Static Library";
+		};
+		A7B5B26D16F8A5430078E1C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B5B26216F8A5430078E1C1 /* genstrings2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7F65DBE14C03E980092E2EE;
+			remoteInfo = UnitTest;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A7B5B1F316F88DA20078E1C1 /* LocalizationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,9 +65,21 @@
 		A7B5B20E16F88DA20078E1C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A7B5B20F16F88DA20078E1C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A7B5B21216F88DA20078E1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		A7B5B21C16F88DC80078E1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A7B5B21C16F88DC80078E1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A7B5B21E16F88DD80078E1C1 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/ViewController.xib; sourceTree = "<group>"; };
-		A7B5B22016F88DD80078E1C1 /* de */ = {isa = PBXFileReference; lastKnownFileType = file; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A7B5B22016F88DD80078E1C1 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A7B5B23816F899AB0078E1C1 /* LocalizationUnitTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizationUnitTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B5B23916F899AC0078E1C1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A7B5B23B16F899AC0078E1C1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		A7B5B23E16F899AC0078E1C1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A7B5B23F16F899AC0078E1C1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A7B5B24016F899AC0078E1C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7B5B24316F899AC0078E1C1 /* LocalizationUnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalizationUnitTest-Info.plist"; sourceTree = "<group>"; };
+		A7B5B24516F899AC0078E1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7B5B24716F899AC0078E1C1 /* LocalizationUnitTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizationUnitTest.h; sourceTree = "<group>"; };
+		A7B5B24816F899AC0078E1C1 /* LocalizationUnitTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizationUnitTest.m; sourceTree = "<group>"; };
+		A7B5B24A16F899AC0078E1C1 /* LocalizationUnitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalizationUnitTest-Prefix.pch"; sourceTree = "<group>"; };
+		A7B5B26216F8A5430078E1C1 /* genstrings2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = genstrings2.xcodeproj; path = ../../Externals/DTLocalizableStringScanner/genstrings2.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +93,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7B5B23416F899AB0078E1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B5B26F16F8A5980078E1C1 /* libDTLocalizableStringScanner.a in Frameworks */,
+				A7B5B23A16F899AC0078E1C1 /* SenTestingKit.framework in Frameworks */,
+				A7B5B23C16F899AC0078E1C1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -59,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				A7B5B1FC16F88DA20078E1C1 /* LocalizationDemo */,
+				A7B5B24116F899AC0078E1C1 /* LocalizationUnitTest */,
 				A7B5B1F516F88DA20078E1C1 /* Frameworks */,
 				A7B5B1F416F88DA20078E1C1 /* Products */,
 			);
@@ -68,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				A7B5B1F316F88DA20078E1C1 /* LocalizationDemo.app */,
+				A7B5B23816F899AB0078E1C1 /* LocalizationUnitTest.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +131,9 @@
 				A7B5B1F616F88DA20078E1C1 /* UIKit.framework */,
 				A7B5B1F816F88DA20078E1C1 /* Foundation.framework */,
 				A7B5B1FA16F88DA20078E1C1 /* CoreGraphics.framework */,
+				A7B5B23916F899AC0078E1C1 /* SenTestingKit.framework */,
+				A7B5B23B16F899AC0078E1C1 /* Cocoa.framework */,
+				A7B5B23D16F899AC0078E1C1 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,6 +165,55 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A7B5B23D16F899AC0078E1C1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7B5B23E16F899AC0078E1C1 /* AppKit.framework */,
+				A7B5B23F16F899AC0078E1C1 /* CoreData.framework */,
+				A7B5B24016F899AC0078E1C1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A7B5B24116F899AC0078E1C1 /* LocalizationUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				A7B5B26116F8A4E60078E1C1 /* Externals */,
+				A7B5B24716F899AC0078E1C1 /* LocalizationUnitTest.h */,
+				A7B5B24816F899AC0078E1C1 /* LocalizationUnitTest.m */,
+				A7B5B24216F899AC0078E1C1 /* Supporting Files */,
+			);
+			path = LocalizationUnitTest;
+			sourceTree = "<group>";
+		};
+		A7B5B24216F899AC0078E1C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7B5B24316F899AC0078E1C1 /* LocalizationUnitTest-Info.plist */,
+				A7B5B24416F899AC0078E1C1 /* InfoPlist.strings */,
+				A7B5B24A16F899AC0078E1C1 /* LocalizationUnitTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7B5B26116F8A4E60078E1C1 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				A7B5B26216F8A5430078E1C1 /* genstrings2.xcodeproj */,
+			);
+			name = Externals;
+			sourceTree = "<group>";
+		};
+		A7B5B26316F8A5430078E1C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7B5B26A16F8A5430078E1C1 /* genstrings2 */,
+				A7B5B26C16F8A5430078E1C1 /* libDTLocalizableStringScanner.a */,
+				A7B5B26E16F8A5430078E1C1 /* UnitTest.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,6 +233,24 @@
 			productName = LocalizationDemo;
 			productReference = A7B5B1F316F88DA20078E1C1 /* LocalizationDemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A7B5B23716F899AB0078E1C1 /* LocalizationUnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B5B24D16F899AC0078E1C1 /* Build configuration list for PBXNativeTarget "LocalizationUnitTest" */;
+			buildPhases = (
+				A7B5B23316F899AB0078E1C1 /* Sources */,
+				A7B5B23416F899AB0078E1C1 /* Frameworks */,
+				A7B5B23516F899AB0078E1C1 /* Resources */,
+				A7B5B23616F899AB0078E1C1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalizationUnitTest;
+			productName = LocalizationUnitTest;
+			productReference = A7B5B23816F899AB0078E1C1 /* LocalizationUnitTest.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -149,12 +272,43 @@
 			mainGroup = A7B5B1EA16F88DA20078E1C1;
 			productRefGroup = A7B5B1F416F88DA20078E1C1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A7B5B26316F8A5430078E1C1 /* Products */;
+					ProjectRef = A7B5B26216F8A5430078E1C1 /* genstrings2.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A7B5B1F216F88DA20078E1C1 /* LocalizationDemo */,
+				A7B5B23716F899AB0078E1C1 /* LocalizationUnitTest */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A7B5B26A16F8A5430078E1C1 /* genstrings2 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = genstrings2;
+			remoteRef = A7B5B26916F8A5430078E1C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7B5B26C16F8A5430078E1C1 /* libDTLocalizableStringScanner.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDTLocalizableStringScanner.a;
+			remoteRef = A7B5B26B16F8A5430078E1C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7B5B26E16F8A5430078E1C1 /* UnitTest.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTest.octest;
+			remoteRef = A7B5B26D16F8A5430078E1C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A7B5B1F116F88DA20078E1C1 /* Resources */ = {
@@ -169,7 +323,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7B5B23516F899AB0078E1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B5B24616F899AC0078E1C1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7B5B23616F899AB0078E1C1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A7B5B1EF16F88DA20078E1C1 /* Sources */ = {
@@ -179,6 +357,14 @@
 				A7B5B20316F88DA20078E1C1 /* main.m in Sources */,
 				A7B5B20716F88DA20078E1C1 /* AppDelegate.m in Sources */,
 				A7B5B21016F88DA20078E1C1 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B5B23316F899AB0078E1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B5B24916F899AC0078E1C1 /* LocalizationUnitTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +387,14 @@
 				A7B5B22016F88DD80078E1C1 /* de */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		A7B5B24416F899AC0078E1C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7B5B24516F899AC0078E1C1 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -284,6 +478,47 @@
 			};
 			name = Release;
 		};
+		A7B5B24B16F899AC0078E1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalizationUnitTest/LocalizationUnitTest-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "LocalizationUnitTest/LocalizationUnitTest-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "../Externals/DTLocalizableStringScanner/**";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A7B5B24C16F899AC0078E1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalizationUnitTest/LocalizationUnitTest-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "LocalizationUnitTest/LocalizationUnitTest-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "../Externals/DTLocalizableStringScanner/**";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -301,6 +536,15 @@
 			buildConfigurations = (
 				A7B5B21716F88DA20078E1C1 /* Debug */,
 				A7B5B21816F88DA20078E1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B5B24D16F899AC0078E1C1 /* Build configuration list for PBXNativeTarget "LocalizationUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B5B24B16F899AC0078E1C1 /* Debug */,
+				A7B5B24C16F899AC0078E1C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
