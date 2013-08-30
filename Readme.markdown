@@ -23,5 +23,6 @@ Contents:
 - [Bonjour Chat](http://bit.ly/SMO5Re)
 - [Dynamic Unit Tests](http://bit.ly/XWu1gE)
 - [Localization Unit Test](http://bit.ly/YoC0Dk)
+- [Collection View Item Sizing with Auto Layout](http://bit.ly/1dt7TGr)
 
 Follow [@cocoanetics](http://twitter.com/cocoanetics) on Twitter.
