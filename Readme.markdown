@@ -24,5 +24,6 @@ Contents:
 - [Dynamic Unit Tests](http://bit.ly/XWu1gE)
 - [Localization Unit Test](http://bit.ly/YoC0Dk)
 - [Collection View Item Sizing with Auto Layout](http://bit.ly/1dt7TGr)
+- [M7 Pedometer](http://www.cocoanetics.com/2014/03/m7-pedometer/)
 
 Follow [@cocoanetics](http://twitter.com/cocoanetics) on Twitter.
