@@ -15,6 +15,8 @@
 		A77CF08F18E588B60078F846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77CF08D18E588B60078F846 /* Main.storyboard */; };
 		A77CF09218E588B60078F846 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77CF09118E588B60078F846 /* ViewController.m */; };
 		A77CF09418E588B60078F846 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77CF09318E588B60078F846 /* Images.xcassets */; };
+		A77CF0B218E598EF0078F846 /* DTStepModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77CF0B118E598EF0078F846 /* DTStepModelController.m */; };
+		A77CF0B418E599190078F846 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77CF0B318E599190078F846 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		A77CF09118E588B60078F846 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A77CF09318E588B60078F846 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A77CF09A18E588B60078F846 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A77CF0B018E598EF0078F846 /* DTStepModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTStepModelController.h; sourceTree = "<group>"; };
+		A77CF0B118E598EF0078F846 /* DTStepModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTStepModelController.m; sourceTree = "<group>"; };
+		A77CF0B318E599190078F846 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A77CF0B418E599190078F846 /* CoreMotion.framework in Frameworks */,
 				A77CF07E18E588B60078F846 /* CoreGraphics.framework in Frameworks */,
 				A77CF08018E588B60078F846 /* UIKit.framework in Frameworks */,
 				A77CF07C18E588B60078F846 /* Foundation.framework in Frameworks */,
@@ -68,6 +74,7 @@
 		A77CF07A18E588B60078F846 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A77CF0B318E599190078F846 /* CoreMotion.framework */,
 				A77CF07B18E588B60078F846 /* Foundation.framework */,
 				A77CF07D18E588B60078F846 /* CoreGraphics.framework */,
 				A77CF07F18E588B60078F846 /* UIKit.framework */,
@@ -81,6 +88,8 @@
 			children = (
 				A77CF08A18E588B60078F846 /* AppDelegate.h */,
 				A77CF08B18E588B60078F846 /* AppDelegate.m */,
+				A77CF0B018E598EF0078F846 /* DTStepModelController.h */,
+				A77CF0B118E598EF0078F846 /* DTStepModelController.m */,
 				A77CF08D18E588B60078F846 /* Main.storyboard */,
 				A77CF09018E588B60078F846 /* ViewController.h */,
 				A77CF09118E588B60078F846 /* ViewController.m */,
@@ -167,6 +176,7 @@
 				A77CF09218E588B60078F846 /* ViewController.m in Sources */,
 				A77CF08C18E588B60078F846 /* AppDelegate.m in Sources */,
 				A77CF08818E588B60078F846 /* main.m in Sources */,
+				A77CF0B218E598EF0078F846 /* DTStepModelController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
