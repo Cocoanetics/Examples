@@ -1,9 +1,9 @@
 [submodule "Externals/DTFoundation"]
 	path = Externals/DTFoundation
-	url = git://github.com/Cocoanetics/DTFoundation.git 
+	url = https://github.com/Cocoanetics/DTFoundation.git 
 [submodule "Externals/DTBonjour"]
 	path = Externals/DTBonjour
 	url = https://github.com/Cocoanetics/DTBonjour.git
 [submodule "Externals/DTLocalizableStringScanner"]
 	path = Externals/DTLocalizableStringScanner
-	url = git@github.com:Cocoanetics/DTLocalizableStringScanner.git
+	url = https://github.com/Cocoanetics/DTLocalizableStringScanner.git
