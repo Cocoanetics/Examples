@@ -10,7 +10,6 @@
 		A77CF07C18E588B60078F846 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77CF07B18E588B60078F846 /* Foundation.framework */; };
 		A77CF07E18E588B60078F846 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77CF07D18E588B60078F846 /* CoreGraphics.framework */; };
 		A77CF08018E588B60078F846 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77CF07F18E588B60078F846 /* UIKit.framework */; };
-		A77CF08618E588B60078F846 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A77CF08418E588B60078F846 /* InfoPlist.strings */; };
 		A77CF08818E588B60078F846 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A77CF08718E588B60078F846 /* main.m */; };
 		A77CF08C18E588B60078F846 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A77CF08B18E588B60078F846 /* AppDelegate.m */; };
 		A77CF08F18E588B60078F846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77CF08D18E588B60078F846 /* Main.storyboard */; };
@@ -24,7 +23,6 @@
 		A77CF07D18E588B60078F846 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A77CF07F18E588B60078F846 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A77CF08318E588B60078F846 /* Pedometer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pedometer-Info.plist"; sourceTree = "<group>"; };
-		A77CF08518E588B60078F846 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A77CF08718E588B60078F846 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A77CF08918E588B60078F846 /* Pedometer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pedometer-Prefix.pch"; sourceTree = "<group>"; };
 		A77CF08A18E588B60078F846 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				A77CF08318E588B60078F846 /* Pedometer-Info.plist */,
-				A77CF08418E588B60078F846 /* InfoPlist.strings */,
 				A77CF08718E588B60078F846 /* main.m */,
 				A77CF08918E588B60078F846 /* Pedometer-Prefix.pch */,
 			);
@@ -156,7 +153,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A77CF09418E588B60078F846 /* Images.xcassets in Resources */,
-				A77CF08618E588B60078F846 /* InfoPlist.strings in Resources */,
 				A77CF08F18E588B60078F846 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,14 +173,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A77CF08418E588B60078F846 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A77CF08518E588B60078F846 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		A77CF08D18E588B60078F846 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
