@@ -137,7 +137,6 @@
    _isLiveCounting = NO;
    
    NSLog(@"Stopped live step counting");
-
 }
 
 #pragma mark - Notifications
