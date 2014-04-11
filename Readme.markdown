@@ -25,5 +25,8 @@ Contents:
 - [Localization Unit Test](http://bit.ly/YoC0Dk)
 - [Collection View Item Sizing with Auto Layout](http://bit.ly/1dt7TGr)
 - [M7 Pedometer](http://www.cocoanetics.com/2014/03/m7-pedometer/)
+- [Unwinding](http://www.cocoanetics.com/2014/04/unwinding/)
+
+Please buy my book about [Barcodes with iOS 7](http://www.cocoanetics.com/2014/03/read-my-book/), it will change your life!
 
 Follow [@cocoanetics](http://twitter.com/cocoanetics) on Twitter.
