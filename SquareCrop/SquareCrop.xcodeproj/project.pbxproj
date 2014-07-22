@@ -13,33 +13,8 @@
 		A789651C197E66CE00855AC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A789651B197E66CE00855AC4 /* ViewController.m */; };
 		A789651F197E66CE00855AC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A789651D197E66CE00855AC4 /* Main.storyboard */; };
 		A7896521197E66CE00855AC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7896520197E66CE00855AC4 /* Images.xcassets */; };
-		A789652D197E66CE00855AC4 /* SquareCropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A789652C197E66CE00855AC4 /* SquareCropTests.m */; };
 		A7896537197E66F600855AC4 /* Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7896536197E66F600855AC4 /* Image.jpg */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A7896527197E66CE00855AC4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7896505197E66CE00855AC4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A789650C197E66CE00855AC4;
-			remoteInfo = SquareCrop;
-		};
-		A7896538197E6C5000855AC4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7896505197E66CE00855AC4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A789650C197E66CE00855AC4;
-			remoteInfo = SquareCrop;
-		};
-		A789653C197E861800855AC4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7896505197E66CE00855AC4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A789650C197E66CE00855AC4;
-			remoteInfo = SquareCrop;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A789650D197E66CE00855AC4 /* SquareCrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareCrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,7 +27,6 @@
 		A789651B197E66CE00855AC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A789651E197E66CE00855AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7896520197E66CE00855AC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A7896526197E66CE00855AC4 /* SquareCropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquareCropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A789652B197E66CE00855AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A789652C197E66CE00855AC4 /* SquareCropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareCropTests.m; sourceTree = "<group>"; };
 		A7896536197E66F600855AC4 /* Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image.jpg; sourceTree = "<group>"; };
@@ -60,13 +34,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		A789650A197E66CE00855AC4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7896523197E66CE00855AC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -89,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				A789650D197E66CE00855AC4 /* SquareCrop.app */,
-				A7896526197E66CE00855AC4 /* SquareCropTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,26 +122,6 @@
 			productReference = A789650D197E66CE00855AC4 /* SquareCrop.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A7896525197E66CE00855AC4 /* SquareCropTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A7896533197E66CE00855AC4 /* Build configuration list for PBXNativeTarget "SquareCropTests" */;
-			buildPhases = (
-				A7896522197E66CE00855AC4 /* Sources */,
-				A7896523197E66CE00855AC4 /* Frameworks */,
-				A7896524197E66CE00855AC4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A7896528197E66CE00855AC4 /* PBXTargetDependency */,
-				A7896539197E6C5000855AC4 /* PBXTargetDependency */,
-				A789653D197E861800855AC4 /* PBXTargetDependency */,
-			);
-			name = SquareCropTests;
-			productName = SquareCropTests;
-			productReference = A7896526197E66CE00855AC4 /* SquareCropTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -187,10 +133,6 @@
 				TargetAttributes = {
 					A789650C197E66CE00855AC4 = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					A7896525197E66CE00855AC4 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = A789650C197E66CE00855AC4;
 					};
 				};
 			};
@@ -208,7 +150,6 @@
 			projectRoot = "";
 			targets = (
 				A789650C197E66CE00855AC4 /* SquareCrop */,
-				A7896525197E66CE00855AC4 /* SquareCropTests */,
 			);
 		};
 /* End PBXProject section */
@@ -221,13 +162,6 @@
 				A7896537197E66F600855AC4 /* Image.jpg in Resources */,
 				A789651F197E66CE00855AC4 /* Main.storyboard in Resources */,
 				A7896521197E66CE00855AC4 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7896524197E66CE00855AC4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,33 +179,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7896522197E66CE00855AC4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A789652D197E66CE00855AC4 /* SquareCropTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A7896528197E66CE00855AC4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A789650C197E66CE00855AC4 /* SquareCrop */;
-			targetProxy = A7896527197E66CE00855AC4 /* PBXContainerItemProxy */;
-		};
-		A7896539197E6C5000855AC4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A789650C197E66CE00855AC4 /* SquareCrop */;
-			targetProxy = A7896538197E6C5000855AC4 /* PBXContainerItemProxy */;
-		};
-		A789653D197E861800855AC4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A789650C197E66CE00855AC4 /* SquareCrop */;
-			targetProxy = A789653C197E861800855AC4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A789651D197E66CE00855AC4 /* Main.storyboard */ = {
@@ -319,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -354,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -367,7 +275,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SquareCrop/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -379,43 +286,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SquareCrop/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		A7896534197E66CE00855AC4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SquareCrop.app/SquareCrop";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SquareCropTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		A7896535197E66CE00855AC4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SquareCrop.app/SquareCrop";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SquareCropTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
 		};
@@ -436,15 +308,6 @@
 			buildConfigurations = (
 				A7896531197E66CE00855AC4 /* Debug */,
 				A7896532197E66CE00855AC4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A7896533197E66CE00855AC4 /* Build configuration list for PBXNativeTarget "SquareCropTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A7896534197E66CE00855AC4 /* Debug */,
-				A7896535197E66CE00855AC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
