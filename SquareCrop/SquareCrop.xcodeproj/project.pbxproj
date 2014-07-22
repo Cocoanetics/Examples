@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A7896513197E66CE00855AC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7896512197E66CE00855AC4 /* main.m */; };
 		A7896516197E66CE00855AC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7896515197E66CE00855AC4 /* AppDelegate.m */; };
-		A7896519197E66CE00855AC4 /* SquareCrop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7896517197E66CE00855AC4 /* SquareCrop.xcdatamodeld */; };
 		A789651C197E66CE00855AC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A789651B197E66CE00855AC4 /* ViewController.m */; };
 		A789651F197E66CE00855AC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A789651D197E66CE00855AC4 /* Main.storyboard */; };
 		A7896521197E66CE00855AC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7896520197E66CE00855AC4 /* Images.xcassets */; };
@@ -22,7 +21,6 @@
 		A7896512197E66CE00855AC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A7896514197E66CE00855AC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A7896515197E66CE00855AC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A7896518197E66CE00855AC4 /* SquareCrop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SquareCrop.xcdatamodel; sourceTree = "<group>"; };
 		A789651A197E66CE00855AC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A789651B197E66CE00855AC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A789651E197E66CE00855AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -67,7 +65,6 @@
 				A789651B197E66CE00855AC4 /* ViewController.m */,
 				A789651D197E66CE00855AC4 /* Main.storyboard */,
 				A7896520197E66CE00855AC4 /* Images.xcassets */,
-				A7896517197E66CE00855AC4 /* SquareCrop.xcdatamodeld */,
 				A7896510197E66CE00855AC4 /* Supporting Files */,
 			);
 			path = SquareCrop;
@@ -153,7 +150,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7896516197E66CE00855AC4 /* AppDelegate.m in Sources */,
-				A7896519197E66CE00855AC4 /* SquareCrop.xcdatamodeld in Sources */,
 				A789651C197E66CE00855AC4 /* ViewController.m in Sources */,
 				A7896513197E66CE00855AC4 /* main.m in Sources */,
 			);
@@ -293,19 +289,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A7896517197E66CE00855AC4 /* SquareCrop.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A7896518197E66CE00855AC4 /* SquareCrop.xcdatamodel */,
-			);
-			currentVersion = A7896518197E66CE00855AC4 /* SquareCrop.xcdatamodel */;
-			path = SquareCrop.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = A7896505197E66CE00855AC4 /* Project object */;
 }
