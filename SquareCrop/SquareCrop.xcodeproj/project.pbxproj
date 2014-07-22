@@ -27,8 +27,6 @@
 		A789651B197E66CE00855AC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A789651E197E66CE00855AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7896520197E66CE00855AC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A789652B197E66CE00855AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A789652C197E66CE00855AC4 /* SquareCropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareCropTests.m; sourceTree = "<group>"; };
 		A7896536197E66F600855AC4 /* Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				A789650F197E66CE00855AC4 /* SquareCrop */,
-				A7896529197E66CE00855AC4 /* SquareCropTests */,
 				A789650E197E66CE00855AC4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,23 +78,6 @@
 			children = (
 				A7896511197E66CE00855AC4 /* Info.plist */,
 				A7896512197E66CE00855AC4 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A7896529197E66CE00855AC4 /* SquareCropTests */ = {
-			isa = PBXGroup;
-			children = (
-				A789652C197E66CE00855AC4 /* SquareCropTests.m */,
-				A789652A197E66CE00855AC4 /* Supporting Files */,
-			);
-			path = SquareCropTests;
-			sourceTree = "<group>";
-		};
-		A789652A197E66CE00855AC4 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A789652B197E66CE00855AC4 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
