@@ -67,13 +67,13 @@ UIImage *squareCropImageToSideLength(UIImage *sourceImage,
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
    [super viewDidLoad];
-   // Do any additional setup after loading the view, typically from a nib.
    
    UIImage *image = [UIImage imageNamed:@"Image.jpg"];
-   UIImage *scaled = squareCropImageToSideLength(image, 300);
-   self.imageView.image = scaled;
+   UIImage *squareImage = squareCropImageToSideLength(image, 300);
+   self.imageView.image = squareImage;
 }
 
 @end
