@@ -32,6 +32,13 @@
 			remoteGlobalIDString = A789650C197E66CE00855AC4;
 			remoteInfo = SquareCrop;
 		};
+		A789653C197E861800855AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7896505197E66CE00855AC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A789650C197E66CE00855AC4;
+			remoteInfo = SquareCrop;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -162,6 +169,7 @@
 			dependencies = (
 				A7896528197E66CE00855AC4 /* PBXTargetDependency */,
 				A7896539197E6C5000855AC4 /* PBXTargetDependency */,
+				A789653D197E861800855AC4 /* PBXTargetDependency */,
 			);
 			name = SquareCropTests;
 			productName = SquareCropTests;
@@ -257,6 +265,11 @@
 			isa = PBXTargetDependency;
 			target = A789650C197E66CE00855AC4 /* SquareCrop */;
 			targetProxy = A7896538197E6C5000855AC4 /* PBXContainerItemProxy */;
+		};
+		A789653D197E861800855AC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A789650C197E66CE00855AC4 /* SquareCrop */;
+			targetProxy = A789653C197E861800855AC4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
